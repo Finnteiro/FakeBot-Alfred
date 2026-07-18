@@ -5,11 +5,13 @@ const lista = [
     "'IA' significa Inteligência Artificial, em inglês 'AI' - Artificial Inteligence.",
     "Ainda estou adquirindo conhecimento.",
     "Sou apenas um mordomo com textos e uma lista de frases que aparecem quando você clica em um botão",
+    "Aproveite-se da minha nobreza.",
     "Tenha um exímio dia, Senhor."
+
 ]
 var n = 0;
  function funcao(){
     resposta.innerHTML = lista[n];
     n++;
-    if(n > 6) n = 0;
+    if(n > 7) n = 0;
  }
